@@ -11,7 +11,7 @@ class Person{
 String name = '';
 int d = 0;
 Person({ String name = 'Maxkambek', int d = 20}){
-this.name = name;
+this.name = name; 
 this.d = d;
 
 
