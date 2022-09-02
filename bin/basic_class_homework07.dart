@@ -17,7 +17,7 @@ class Person{
   String name = 'ali';
   int age = 25;
 
-  Person({String name = 'ali',int age = 25}){
+  Person({String name = '',int age = 0}){
     this.name = name;
     this.age = age;
   
