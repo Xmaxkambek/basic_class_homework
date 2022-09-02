@@ -13,9 +13,9 @@ void main() {
 
 }
 class Person{
-  String name = '';
+  String name = 'Ali';
 
   Person(String name){
-    
+
   }
 }
