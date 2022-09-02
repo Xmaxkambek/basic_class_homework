@@ -7,13 +7,13 @@ create an object named "person" whose name is "Ali"
 */
 
 void main() {
-  Person person = Person('Ali');
+  Person person = Person('ali');
   print(person.name);
 
 
 }
 class Person{
-  String name = 'Ali';
+  String name = 'ali';
 
   Person(String name){
 
