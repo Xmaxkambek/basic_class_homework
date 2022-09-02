@@ -5,4 +5,23 @@ Create a "Person" class that has a name("name") and a age("age")
 create an object named "person" whose name is "Ali", age is "25"
 */
 
-void main() {}
+void main() {
+  Person person = Person(name: 'ali');
+  Person p=Person.m(25);
+print(person.name);
+}
+
+
+
+class Person{
+  String name = 'ali';
+  int age = 25;
+
+  Person({String name = ''}){
+    this.name = name;
+  
+  }
+  Person.m(this.age){
+
+  }
+}
