@@ -11,9 +11,9 @@ void main() {
 }
 class Person{
   String name ='ali';
-  int age = 18;
+  int age = 25;
 
- Person({String name = 'ali'  ,int age = 18}){
+ Person({String name = 'ali'  ,int age = 25}){
   this.name = name;
   this.age = age;
 }
