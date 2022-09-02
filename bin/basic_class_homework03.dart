@@ -11,7 +11,7 @@ void main() {
   print(a.name);
 }
 class Person{
-  String name =  '';
+  String name =  'ali';
   
 
   Person({String name = 'Maxkambek'}){
