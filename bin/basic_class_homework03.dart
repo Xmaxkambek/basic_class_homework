@@ -7,8 +7,8 @@ create an object named "person" whose name is "Ali"
 */
 
 void main() {
-  Person x = Person();
-  print(x.name);
+  Person person = Person();
+  print(person.name);
 
 
 }
