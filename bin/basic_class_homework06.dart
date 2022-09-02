@@ -10,10 +10,10 @@ void main() {
   print(x.name);
 }
 class Person{
-  String name ='Maxkambek';
+  String name ='ali';
   int age = 18;
 
- Person({String name = 'Maxkambek'  ,int age = 18}){
+ Person({String name = 'ali'  ,int age = 18}){
   this.name = name;
   this.age = age;
 }
