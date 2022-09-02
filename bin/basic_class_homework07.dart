@@ -6,7 +6,7 @@ create an object named "person" whose name is "Ali", age is "25"
 */
 
 void main() {
-  Person person = Person();
+  Person person = Person(name: 'ali',age: 25);
   
 print(person.name);
 }
@@ -17,7 +17,7 @@ class Person{
   String name = 'ali';
   int age = 25;
 
-  Person({String name = 'Maxkambek',int age = 25}){
+  Person({String name = 'ali',int age = 25}){
     this.name = name;
     this.age = age;
   
