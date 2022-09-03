@@ -14,11 +14,11 @@ Person({String name = 'ali',int age = 25}){
   this.age = age;
 }
 String getInfo(){
-  return 'name:${this.name} age:${this.age}';
+  return 'name:${this.name}';
 }
 }
 void main() {
   Person person = Person();
 
-  print(person.getInfo());
+  print(person.name);
 }
